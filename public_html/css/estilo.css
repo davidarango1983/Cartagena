@@ -8,12 +8,9 @@ and open the template in the editor.
     Author     : davidarango
 */
 
-div{
-    background-color: window;
-}
-
-
-aside{
+.colormenu{
     
-    background-color: #078;
+background-color:#007788;
+
 }
+
