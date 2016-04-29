@@ -10,60 +10,66 @@ and open the template in the editor.
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">   
         <link rel="stylesheet" href="js/bootstrap-3.3.6/dist/css/bootstrap.css"/>
+        <link rel="stylesheet" href="js/jquery-ui-1.11.4.custom/jquery-ui.min.css"/>
         <link rel="stylesheet" href="css/estilo.css"/>
     </head>
     <body>
         <header>
             <div id='cabecera' class='container'>
-                
+
                 <h1>Cartagena De Indias</h1>
-                
+
             </div>
         </header>
         <!--   Menu !-->
-        
-        <div class=" container letramenu">
-        <div id='menu' class="btn-group btn-toolbar">
+
+        <div class=" container">
             
-          
-                <button class='btn btn-primary colormenu'>Historia</button>
-                 <button class='btn btn-primary colormenu'>Geografía</button>
-                 <button class='btn btn-primary colormenu'>Turismo</button> 
-                 <button class='btn btn-primary colormenu'>Población</button> 
-                 <button class='btn btn-primary colormenu'>Contacto</button>
-                 <div class="btn-group">
-                <button type='button' class='btn btn-primary dropdown-toggle colormenu' data-toggle='dropdown'>Enlaces de Interés
-                <span class='caret'></span>
-                </button>
-                     <ul class='dropdown-menu'>
-                         
-                         <li><a class='btn-primary' href="#">Contacto 1</a></li>
-                        <li><a class='btn-primary' href="#">Contacto 2</a></li>
-                        <li><a class='btn-primary' href="#">Contacto 3</a></li>
-                        <li><a class='btn-primary' href="#">Contacto 4</a></li>
-                        <li><a class='btn-primary' href="#">Contacto 5</a></li>
-                         
-                     </ul>
-            </div>
-                 <button class='btn btn-primary colormenu'>Documentación</button>          
-                     
+                <div id='menu' class="  col-lg-12 col-md-12 col-sm-12 col-xs-12">
+
+
+                    <button id='historia' class='btn btn-primary colormenu col-lg-2 col-md-2 col-sm-6 col-xs-12'>Historia</button>
+                    <button id='geografia' class='btn btn-primary colormenu col-lg-2 col-md-2 col-sm-6 col-xs-12'>Geografía</button>
+                    <button class='btn btn-primary colormenu  col-lg-2 col-md-2 col-sm-6 col-xs-12'>Turismo</button> 
+                    <button class='btn btn-primary colormenu col-lg-2 col-md-2 col-sm-6 col-xs-12'>Población</button> 
+                    <button class='btn btn-primary colormenu col-lg-2 col-md-2 col-sm-6 col-xs-12'>Contacto</button>                 
+                    <div class=''>
+                        <button type="button" class="btn col-lg-2 col-md-2 col-sm-6 col-xs-12 btn-primary dropdown-toggle colormenu "
+                                data-toggle="dropdown">
+                            Enlaces <span class="caret"></span>
+                        </button>
+
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="#">Acción #1</a></li>
+                            <li><a href="#">Acción #2</a></li>
+                            <li><a href="#">Acción #3</a></li>
+
+                            <li><a href="#">Acción #4</a></li>
+                        </ul>
+                        </div>
+                   
+                </div>   
+
+
             
         </div>
-           
-            </div>
-        
+
+        </br>
+        </br>
         <div id='contenido' class="container">
-            
-            
+
+
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id, praesentium, suscipit voluptate obcaecati illum amet ea quasi mollitia iure sapiente soluta itaque iusto dolorem quas nisi delectus quidem nemo voluptatem!
-            
+
         </div>
-        
-       
+
+
         <div id='pie' class='container'>
-        <footer><h3>David Arango</h3></footer>
+            <footer><h3>David Arango</h3></footer>
         </div>
         <script type="text/javascript" src="js/jquery-1.12.3.min.js"></script>
         <script type="text/javascript" src="js/bootstrap-3.3.6/dist/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/jquery-ui-1.11.4.custom/jquery-ui.min.js"></script>
+        <script type='text/javascript' src="js/main.js"></script>
     </body>
 </html>
