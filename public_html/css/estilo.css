@@ -7,10 +7,15 @@ and open the template in the editor.
     Created on : 27-abr-2016, 11:20:10
     Author     : davidarango
 */
-
+@import url(https://fonts.googleapis.com/css?family=Muli);
 .colormenu{
     
 background-color:#000099;
 
 }
 
+
+.letraHistoria{
+    
+    font-family: 'Muli', sans-serif;
+}

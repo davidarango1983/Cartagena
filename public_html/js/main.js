@@ -12,6 +12,7 @@ $(document).ready( function(){
     $('#historia').click(function(){
         $('#contenido').hide('scale','slow');
        $('#contenido').load('contenidos/historia.html');
+
         $('#contenido').show('scale','slow');
     });
     
