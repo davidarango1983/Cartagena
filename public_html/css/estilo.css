@@ -8,9 +8,72 @@ and open the template in the editor.
     Author     : davidarango
 */
 
+
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans:600);
+
 .colormenu{
     
 background-color:#000099;
 
 }
 
+.fondoblanco{
+    
+    background-color: white;
+}
+
+
+
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+}
+
+
+
+#mapa {
+    background-color: white;
+    box-shadow: 10px 10px 25px black;;
+   
+    border: 1px solid #D2D2D2;
+    border-radius: 8px 8px 8px 8px;
+    height: 500px;        
+    width: 90%;
+   
+    
+   
+}
+
+#contenidoHis,#contenidoGeo{
+    
+font-family: 'Josefin Sans', sans-serif;
+font-size: 1.2em;
+ 
+}
+#contenedorPrincipal{
+    
+    margin-bottom: 3em;
+}
+
+#imagen{
+    
+ height: 100%;        
+ width: 100%;
+       
+}
+
+#contenedorImagenes{
+    
+   background-color: white;
+    box-shadow: 10px 10px 20px  black;
+   
+    border: 1px solid #D2D2D2;
+    border-radius: 8px 8px 8px 8px;
+    height: 100%;        
+    width: 100%;
+    
+}

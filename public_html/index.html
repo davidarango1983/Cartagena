@@ -6,70 +6,119 @@ and open the template in the editor.
 -->
 <html lang='es'>
     <head>
-        <title>TODO supply a title</title>
+        <title>Cartagena de Indias</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">   
         <link rel="stylesheet" href="js/bootstrap-3.3.6/dist/css/bootstrap.css"/>
         <link rel="stylesheet" href="js/jquery-ui-1.11.4.custom/jquery-ui.min.css"/>
         <link rel="stylesheet" href="css/estilo.css"/>
+        <link rel="stylesheet" href="js/social-share-kit-1.0.8/dist/css/social-share-kit.css" type="text/css">
+        
+        <script type="text/javascript" src="js/jquery-1.12.3.min.js"></script>
+        <script type="text/javascript" src="js/bootstrap-3.3.6/dist/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/jquery-ui-1.11.4.custom/jquery-ui.min.js"></script>
+        <script src="js/Gallery-master/js/blueimp-gallery.min.js"></script>
+              <script src="js/Bootstrap-Image-Gallery-3.4.2/js/bootstrap-image-gallery.js"></script>
+        <script type='text/javascript' src="js/main.js"></script>
     </head>
     <body>
+        <div class='container'>
         <header>
-            <div id='cabecera' class='container'>
+            <div id='cabecera' class='container visible-lg visible-md visible-sm'>
 
-                <h1>Cartagena De Indias</h1>
+                <h1 class='text-center'>Cartagena De Indias</h1>
 
             </div>
         </header>
         <!--   Menu !-->
 
-        <div class=" container">
+        <div  class="container">
             
-                <div id='menu' class="  col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <nav class="navbar navbar-inverse">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="  navbar-toggle collapsed" data-toggle="collapse" data-target="#MenuColapsable">
+        <span class="sr-only">Menu</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+        <p class='navbar-brand visible-xs'>Menú</p>
+      
+    </div>
 
-
-                    <button id='historia' class='btn btn-primary colormenu col-lg-2 col-md-2 col-sm-6 col-xs-12'>Historia</button>
-                    <button id='geografia' class='btn btn-primary colormenu col-lg-2 col-md-2 col-sm-6 col-xs-12'>Geografía</button>
-                    <button class='btn btn-primary colormenu  col-lg-2 col-md-2 col-sm-6 col-xs-12'>Turismo</button> 
-                    <button class='btn btn-primary colormenu col-lg-2 col-md-2 col-sm-6 col-xs-12'>Población</button> 
-                    <button class='btn btn-primary colormenu col-lg-2 col-md-2 col-sm-6 col-xs-12'>Contacto</button>                 
-                    <div class=''>
-                        <button type="button" class="btn col-lg-2 col-md-2 col-sm-6 col-xs-12 btn-primary dropdown-toggle colormenu "
-                                data-toggle="dropdown">
-                            Enlaces <span class="caret"></span>
-                        </button>
-
-                        <ul class="dropdown-menu" role="menu">
-                            <li><a href="#">Acción #1</a></li>
-                            <li><a href="#">Acción #2</a></li>
-                            <li><a href="#">Acción #3</a></li>
-
-                            <li><a href="#">Acción #4</a></li>
-                        </ul>
-                        </div>
-                   
-                </div>   
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class=" collapse navbar-collapse" id="MenuColapsable">
+      <ul class=" nav navbar-nav">
+        
+          <li><a href="index.html">Inicio</a></li>
+          <li><a id='historia' href="#">Historia</a></li>
+        <li><a id='geografia' href="#">Geografia</a></li>
+             <li><a id='galeria' href="#">Galería</a></li>
+        <li><a id='contacto'href="#">Contacto</a></li>
+        
+           
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" >Enlaces <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+              <li><a href="http://www.cartagena.gov.co/">Alcaldía</a></li>
+              <li><a href="http://www.cartagenadeindias.travel/">Oficina Turismo</a></li>
+              <li><a href="http://www.minube.com/que_ver/colombia/bolivar/cartagena_de_indias">Qué ver en Cartagena</a></li>
+            <li><a href="#" class='divider'>Separador</a></li>
+            <div class="ssk-group ssk-count"> 
+            <li><a href="https://www.facebook.com/places/Cosas-para-hacer-en-Cartagena-de-Indias/110945212263566/" class='ssk ssk-icon ssk-facebook ssk-xs'>Facebook</a></li>
+            <li><a href="https://twitter.com/CtgenaDeIndias?lang=es" class=' ssk ssk-icon ssk-twitter ssk-xs '>Twitter</a></li>
+            <li><a href="https://www.instagram.com/cartagenaoficial/" class="ssk ssk-icon ssk-instagram ssk-xs">Instagram</a></li>
+            </div>
+            <li><a href="#" class='divider'>Separador</a></li>
+            <li><a href="#" class="glyphicon glyphicon-user ">Documentación</a></li>
+          </ul>
+        </li>
+       
+        
+      </ul>
+      
+     
+      
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+                </div> 
+        
+       
 
 
             
-        </div>
+     
 
         </br>
         </br>
-        <div id='contenido' class="container">
+        
+            
+            
+        <div class='container'>
+        <div id='contenedorPrincipal' class='center-block'>
 
 
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id, praesentium, suscipit voluptate obcaecati illum amet ea quasi mollitia iure sapiente soluta itaque iusto dolorem quas nisi delectus quidem nemo voluptatem!
 
         </div>
+</div>
 
-
-        <div id='pie' class='container'>
-            <footer><h3>David Arango</h3></footer>
+        <div id='pie' class="footer   text-center fondoblanco">
+            <div class="ssk-group ssk-count"> 
+                <ul class='list-inline'>
+                <li><a href="https://www.facebook.com/places/Cosas-para-hacer-en-Cartagena-de-Indias/110945212263566/" class='ssk ssk-icon ssk-facebook ssk-xs'>Facebook</a></li>
+            <li><a href="https://twitter.com/CtgenaDeIndias?lang=es" class=' ssk ssk-icon ssk-twitter ssk-xs '>Twitter</a></li>
+            <li><a href="https://www.instagram.com/cartagenaoficial/" class="ssk ssk-icon ssk-instagram ssk-xs">Instagram</a></li>
+            <li><a href="https://www.instagram.com/cartagenaoficial/" class="ssk ssk-icon ssk-whatsapp ssk-xs">WebMaster</a></li>
+            </ul>
+            </div>
         </div>
-        <script type="text/javascript" src="js/jquery-1.12.3.min.js"></script>
-        <script type="text/javascript" src="js/bootstrap-3.3.6/dist/js/bootstrap.min.js"></script>
-        <script type="text/javascript" src="js/jquery-ui-1.11.4.custom/jquery-ui.min.js"></script>
-        <script type='text/javascript' src="js/main.js"></script>
+    </div>
+        
+        
     </body>
 </html>

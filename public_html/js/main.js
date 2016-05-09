@@ -5,25 +5,45 @@
  */
 
 
-$(document).ready( function(){
-    
+$(document).ready(function () {
+
     //Asignamos a cada botón del menú su función
-    
-    $('#historia').click(function(){
-        $('#contenido').hide('scale','slow');
-       $('#contenido').load('contenidos/historia.html');
-        $('#contenido').show('scale','slow');
+
+
+    $('#historia').click(function () {
+
+        $('#contenedorPrincipal').load('contenidos/historia.html');
+        $('#contenedorPrincipal').show('slow');
     });
-    
-    
-     $('#geografia').click(function(){
-        $('#contenido').hide('scale');
-       $('#contenido').load('contenidos/geografia.html');
-        $('#contenido').show('scale','slow');
+
+
+    $('#geografia').click(function () {
+
+        $('#contenedorPrincipal').load('contenidos/geografia.html');
+        $('#contenedorPrincipal').show('slow');
+
     });
-    
+
+
+    $('#contacto').click(function () {
+
+        $('#contenedorPrincipal').load('contenidos/contacto.html');
+        $('#contenedorPrincipal').show('slow');
+
+    });
+
+
+    $('#galeria').click(function () {
+
+        $('#contenedorPrincipal').load('contenidos/galeria.html');
+        $('#contenedorPrincipal').show('slow');
+
+    });
+
+  
+
+
+
+
 });
-    
-    
-    
-    
+   
