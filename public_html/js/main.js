@@ -8,7 +8,12 @@
 $(document).ready(function () {
 
     //Asignamos a cada botón del menú su función
-
+  $('#titulo').hide();
+    $('#titulo2').hide();
+    $('#titulo').show('slow',function(){
+        $('#titulo2').show('slow');
+        
+    });
 
     $('#historia').click(function () {
 
@@ -40,10 +45,5 @@ $(document).ready(function () {
 
     });
 
-  
-
-
-
-
+    
 });
-   
