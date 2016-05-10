@@ -1,0 +1,81 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 10-may-2016, 16:06:33
+    Author     : David Arango
+*/
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans:600);
+@import url(https://fonts.googleapis.com/css?family=Ruthie);
+@colorMenu:#000011;
+.letraMenu{
+    font-family: 'Ruthie', cursive;
+
+}
+.letraContenido{
+    font-family: 'Josefin Sans', sans-serif;
+    
+}
+@letraInfo:url(https://fonts.googleapis.com/css?family=Josefin+Sans:600);
+
+.fondo(@color){
+    background-color: @color;
+    
+}
+.colormenu{
+        .fondo(@colorMenu); //uso con variables
+}
+.fondoblanco{
+  .fondo(white); //uso con valores
+}
+
+.centrarTexto{
+        text-align: center;
+}
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+}
+    .navbar .navbar-collapse {
+    .centrarTexto;
+}
+.borderRodius(@valor1,@valor2,@valor3,@valor4){
+    border-rodius: @valor1,@valor2,@valor3,@valor4;
+}
+
+#mapa {
+    .fondo(white);
+    box-shadow: 10px 10px 25px black;   
+    border: 1px solid #D2D2D2;
+    .borderRodius(8px,8px,8px,8p);
+    height: 500px;        
+    width: 100%; 
+      
+}
+
+
+#contenidoHis,#contenidoGeo{
+    
+@letraInfo;
+font-size: 1.2em;
+ 
+}
+#contenedorPrincipal{    
+    margin-bottom: 3em;
+}
+
+.titulo{    
+.letraMenu;
+font-size: 8em;
+}
+.cursiva{
+    .letraMenu;
+}
+#contenidoHis,#contenidoGeo{
+    
+.letraContenido;
+font-size: 1.2em;
+ 
+}
